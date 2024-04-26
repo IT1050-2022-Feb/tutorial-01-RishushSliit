@@ -13,7 +13,15 @@ sum = 1+2+3+...+10 = 55 */
 
 #include <stdio.h>
 int main() {
+int num1,sum=0;
   
+prinf("enter fist sub mark : ");
+scanf("%d",&num1);  
+  while(num1>0){
+    sum=sum+num1;
+    sum--;
+  }
+  prinf("sum : %d",sum);
   return 0;
 }
 
