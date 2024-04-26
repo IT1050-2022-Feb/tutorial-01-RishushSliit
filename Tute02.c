@@ -23,7 +23,7 @@ int main() {
   float total=0;
 
 prinf("enter  distance the van has travelled : ");
-scanf("%d",km);
+scanf("%d",&km);
 
 if(km<=30){
   total=50*km;
